@@ -1,0 +1,13 @@
+dog1=tk.PhotoImage(file="stackoverflow.png")
+dog1menor = dog1.subsample(5, 5)
+dog1maior = dog1.zoom(2, 2)
+
+    arquivo = open("banco.txt", "r")
+    conteudo = arquivo.readlines()
+    
+    
+
+    arquivo = open("banco.txt", "w")
+    arquivo.writelines(conteudo)
+
+    arquivo.close()
